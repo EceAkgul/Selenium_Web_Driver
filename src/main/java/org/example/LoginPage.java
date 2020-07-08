@@ -62,7 +62,7 @@ public class LoginPage {
 
         if(fiyat.equals(price)){System.out.println("ÜRÜN FİYATLARI EŞİTTİR");}
 
-        //*** SEPETTEKİ ÜRÜN FİYATINI ARTTIRMA
+        //*** SEPETTEKİ ÜRÜN SAYISINI ARTTIRMA
 
         WebElement basket = webDriver.findElement(By.xpath("//*[@id='basketPreviewcontent']/div[2]/a[1]"));
         basket.click();
